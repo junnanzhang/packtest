@@ -8,7 +8,7 @@ const path = require('path')
 
 const option =  program.parse(process.argv).args[0]
 const defaultName = typeof option === 'string' ? option : 'react-project'
-const tplList = require(`${__dirname}/../templates`)
+const tplList = require(`${__dirname}/../template`)
 const tplLists = Object.keys(tplList) || [];
 const question = [
   {
