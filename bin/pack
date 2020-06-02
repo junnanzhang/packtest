@@ -16,6 +16,6 @@ program.command('init')
     require(res('init'))
   })
 
-// if(!program.args.length){
-//   program.help()
-// }
+if(!program.args.length){
+  program.help()
+}
