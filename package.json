@@ -1,9 +1,9 @@
 {
   "name": "build-pack-cli",
-  "version": "0.0.2",
+  "version": "0.0.5",
   "description": "react project cli",
   "bin": {
-    "build-react": "bin/pack.js"
+    "build-pack-cli": "bin/pack"
   },
   "keywords": [
     "creat-react",

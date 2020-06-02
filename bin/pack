@@ -1,8 +1,8 @@
 #!/usr/bin/env node
 process.env.NODE_PATH = __dirname + '/../node_modules/'
 const { resolve } = require('path')
-const res = command => resolve(__dirname, '../commands/', command)
 const program = require('commander')
+const res = command => resolve(__dirname, '../commands/', command)
 
 program.version(require('../package').version )
 
@@ -16,6 +16,6 @@ program.command('init')
     require(res('init'))
   })
 
-if(!program.args.length){
-  program.help()
-}
+// if(!program.args.length){
+//   program.help()
+// }
